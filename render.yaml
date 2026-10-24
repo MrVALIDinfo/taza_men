@@ -1,0 +1,29 @@
+# Render Blueprint: Dashboard → New → Blueprint → выберите этот репозиторий.
+# Секреты (BOT_TOKEN, GEMINI_API_KEY) Render спросит при создании — в git их нет.
+services:
+  - type: web
+    name: taza-men
+    runtime: docker
+    # starter: сервис не засыпает и можно подключить диск для базы и фото.
+    # На free тоже запустится (бот работает через вебхук), но засыпает без трафика,
+    # а база и фото стираются при каждом перезапуске — см. README.
+    plan: starter
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODELS
+        value: gemini-3.5-flash,gemini-3.5-flash-lite
+      - key: DEMO_MODE
+        value: "true"
+      - key: REWARD_POINTS
+        value: "100"
+      - key: DAILY_LIMIT
+        value: "10"
+    disk:
+      name: taza-data
+      mountPath: /app/data
+      sizeGB: 1
