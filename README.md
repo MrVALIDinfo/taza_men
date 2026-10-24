@@ -37,26 +37,24 @@
 
 ## Как это выглядит
 
-<table>
-<tr>
-<td width="34%" valign="top"><img src="docs/bot_dialog.png" alt="Диалог с ботом"><br><sub>Диалог с ботом (иллюстрация с реальными текстами бота)</sub></td>
-<td valign="top">
-<table>
-<tr>
-<td><img src="docs/screens/map.jpg" alt="Карта"><br><sub>🗺 Карта нарушений</sub></td>
-<td><img src="docs/screens/moderation.jpg" alt="Модерация"><br><sub>👮 Модерация для инспектора</sub></td>
-<td><img src="docs/screens/my.jpg" alt="Мои обращения"><br><sub>👤 Профиль и баллы</sub></td>
-</tr>
-<tr>
-<td><img src="docs/screens/rating.jpg" alt="Рейтинг"><br><sub>🏆 Рейтинг активистов</sub></td>
-<td><img src="docs/screens/pick.jpg" alt="Выбор точки"><br><sub>📍 Выбор места на карте</sub></td>
-<td></td>
-</tr>
-</table>
-<sub>Скриншоты Mini App сделаны на демо-данных.</sub>
-</td>
-</tr>
-</table>
+### Диалог с ботом
+
+<p align="center">
+  <img src="docs/bot_dialog.png" alt="Диалог с ботом" width="340"><br>
+  <sub>Иллюстрация с реальными текстами бота</sub>
+</p>
+
+### Mini App «Taza Map»
+
+| 🗺 Карта нарушений | 👮 Модерация | 👤 Профиль и баллы |
+|:---:|:---:|:---:|
+| <img src="docs/screens/map.jpg" alt="Карта" width="250"> | <img src="docs/screens/moderation.jpg" alt="Модерация" width="250"> | <img src="docs/screens/my.jpg" alt="Профиль" width="250"> |
+
+| 🏆 Рейтинг активистов | 📍 Выбор места на карте |
+|:---:|:---:|
+| <img src="docs/screens/rating.jpg" alt="Рейтинг" width="250"> | <img src="docs/screens/pick.jpg" alt="Выбор точки" width="250"> |
+
+<sub>Скриншоты сделаны на демо-данных.</sub>
 
 ## Почему это удобно
 
